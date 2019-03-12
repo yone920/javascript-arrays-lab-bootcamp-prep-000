@@ -44,10 +44,10 @@ prependKitten('Arnold')
 function removeLastKitten(name) {
   
   let newAray = [...kittens]
-  newAray.unshift(name)
+  newAray.pop()
   return newAray
 }
-removeLastKitten('Arnold')
+removeLastKitten()
 
 
 
