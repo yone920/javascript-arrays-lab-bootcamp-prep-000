@@ -36,7 +36,7 @@ appendKitten('broom')
 function prependKitten(name) {
   
   let newAray = [...kittens]
-  newAray.push(name)
+  newAray.unshift(name)
   return newAray
 }
 prependKitten('broom')
