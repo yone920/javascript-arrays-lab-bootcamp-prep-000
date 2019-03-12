@@ -41,13 +41,13 @@ function prependKitten(name) {
 }
 prependKitten('Arnold')
 
-function prependKitten(name) {
+function removeLastKitten(name) {
   
   let newAray = [...kittens]
   newAray.unshift(name)
   return newAray
 }
-prependKitten('Arnold')
+removeLastKitten('Arnold')
 
 
 
