@@ -33,3 +33,22 @@ function appendKitten(name) {
 }
 appendKitten('broom')
 
+function appendKitten(name) {
+  
+  let newAray = [...kittens]
+  newAray.push(name)
+  return newAray
+}
+appendKitten('broom')
+
+
+
+
+
+
+
+
+
+
+
+
