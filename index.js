@@ -26,9 +26,9 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  let newAray = []
   
-  newAray.push(kittens.pop(name))
+  let newAray = [...kittens]
+  newAray.push(name)
   return newAray
 }
 appendKitten('broom')
