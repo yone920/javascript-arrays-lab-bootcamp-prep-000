@@ -33,13 +33,13 @@ function appendKitten(name) {
 }
 appendKitten('broom')
 
-function appendKitten(name) {
+function prependKitten(name) {
   
   let newAray = [...kittens]
   newAray.push(name)
   return newAray
 }
-appendKitten('broom')
+prependKitten('broom')
 
 
 
