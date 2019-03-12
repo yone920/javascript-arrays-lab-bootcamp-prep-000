@@ -39,7 +39,7 @@ function prependKitten(name) {
   newAray.unshift(name)
   return newAray
 }
-prependKitten('broom')
+prependKitten('Arnold')
 
 
 
