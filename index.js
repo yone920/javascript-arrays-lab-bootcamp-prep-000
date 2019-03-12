@@ -49,8 +49,13 @@ function removeLastKitten(name) {
 }
 removeLastKitten()
 
-
-
+function removeLastKitten(name) {
+  
+  let newAray = [...kittens]
+  newAray.pop()
+  return newAray
+}
+removeLastKitten()
 
 
 
